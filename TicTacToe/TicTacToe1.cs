@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,22 +6,14 @@ namespace TicTacToe
 {
     class TicTacToe1
     {
-        
+        char[] a = new char[10];
 
-        public void UC1()
+        public static void Board()
         {
-            int[][] tictactoeArray = new int[10][];
-            tictactoeArray[0] = new int[];
-            tictactoeArray[1] = new int[];
-            tictactoeArray[2] = new int[];
-            tictactoeArray[3] = new int[];
-            tictactoeArray[4] = new int[];
-            tictactoeArray[5] = new int[];
-            tictactoeArray[6] = new int[];
-            tictactoeArray[7] = new int[];
-            tictactoeArray[8] = new int[];
-            tictactoeArray[9] = new int[];
-            tictactoeArray[10] = new int[];
+            for (int i = 1; i < a.Length; i++)
+                a[i] = '';
+
+            Console.WriteLine(a[i]);
 
         }
     }
